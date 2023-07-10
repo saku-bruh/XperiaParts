@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name" translatable="false">Xperia Parts</string>
+    <string name="app_summary" translatable="false">Adjust Various Xperia Settings</string>
+
+    <!-- Display Settings -->
+    <string name="display_title">Display</string>
+    <string name="display_setting_header">Image Quality Settings</string>
+    <string name="display_setting_summary">Choose between brilliant colors or a faithful reproduction of the creator\'s intended vision to create an unforgettable visual experience</string>
+
+    <!-- External Monitor -->
+    <string name="extmonitor_setting_header">External Monitor</string>
+    <string name="extmonitor_summary">Modify external camera settings and utilize your Xperia\'s display as a reliable and accurate viewfinder for capturing vibrant, true-to-life colors</string>
+
+    <!-- Audio Settings -->
+    <string name="dolby_category">Audio</string>
+    <string name="dolby_title">Dolby Sound</string>
+    <string name="dolby_summary">Adjust Dolby Sound settings to experience immersive, multidimensional sound that envelops you, bringing movies, music, and games to life</string>
+
+    <!-- Spatial Audio Settings -->
+    <string name="threesixtyra_setting_header">360 Reality Audio</string>
+    <string name="threesixtyra_summary">Personalize spatial sound settings and transform ordinary stereo audio sources into captivating auditory experiences</string>
+
+    <!-- Charging Settings Main Menu -->
+    <string name="charging_title">Charging</string>
+    <string name="charger_setting_header">Battery Care</string>
+    <string name="charger_setting_summary">Optimize battery longevity by adjusting the maximum charging percentage and fine-tuning other charging settings</string>
+</resources>

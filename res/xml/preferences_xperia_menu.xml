@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (C) 2023 The LineageOS Project
+ * SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:title="@string/app_name">
+
+    <PreferenceCategory
+        android:key="d"
+        android:title="@string/display_title">
+
+        <Preference
+            android:key="advanced_disp_settings"
+            android:summary="@string/display_setting_summary"
+            android:icon="@drawable/ic_display_enhance"
+            android:title="@string/display_setting_header">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.sony.display"
+                android:targetClass="com.sony.display.MainActivity" />
+        </Preference>
+
+       <Preference
+            android:key="external_monitor_settings"
+            android:summary="@string/extmonitor_summary"
+            android:icon="@drawable/ic_external_monitor"
+            android:title="@string/extmonitor_setting_header"
+            android:persistent="false">
+            <intent
+                 android:targetPackage="com.sonymobile.extmonitorapp"
+                 android:targetClass="com.sonymobile.extmonitorapp.MonitorProActivity" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="dolby"
+        android:title="@string/dolby_category">
+
+       <Preference
+            android:key="audio_dolby_atmos"
+            android:icon="@drawable/ic_dolby"
+            android:title="@string/dolby_title"
+            android:summary="@string/dolby_summary"
+            android:persistent="false">
+            <intent
+                 android:targetPackage="com.dolby.daxappui2"
+                 android:targetClass="com.dolby.daxappui2.MainActivity" />
+        </Preference>
+
+       <Preference
+            android:key="audio_threesixtyra"
+            android:summary="@string/threesixtyra_summary"
+            android:icon="@drawable/ic_threesixtyra"
+            android:title="@string/threesixtyra_setting_header"
+            android:persistent="false">
+            <intent
+                 android:targetPackage="jp.co.sony.threesixtyra.lite"
+                 android:targetClass="ru.g000sha256.bass_booster.MainActivity" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="c"
+        android:title="@string/charging_title">
+
+        <Preference
+            android:key="advanced_charger_settings"
+            android:summary="@string/charger_setting_summary"
+            android:icon="@drawable/ic_battery_care"
+            android:title="@string/charger_setting_header"
+            android:fragment="org.lineageos.settings.device.charger.ChargerSettingsActivity">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="crazyboyfeng.accSettings"
+                android:targetClass="crazyboyfeng.accSettings.SettingsActivity" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
