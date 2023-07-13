@@ -9,14 +9,14 @@
     android:title="@string/app_name">
 
     <PreferenceCategory
-        android:key="d"
+        android:key="display"
         android:title="@string/display_title">
 
         <Preference
             android:key="advanced_disp_settings"
-            android:summary="@string/display_setting_summary"
             android:icon="@drawable/ic_display_enhance"
-            android:title="@string/display_setting_header">
+            android:title="@string/display_setting_header"
+            android:summary="@string/display_setting_summary">
             <intent
                 android:action="android.intent.action.MAIN"
                 android:targetPackage="com.sony.display"
@@ -25,9 +25,9 @@
 
        <Preference
             android:key="external_monitor_settings"
-            android:summary="@string/extmonitor_summary"
             android:icon="@drawable/ic_external_monitor"
             android:title="@string/extmonitor_setting_header"
+            android:summary="@string/extmonitor_summary"
             android:persistent="false">
             <intent
                  android:targetPackage="com.sonymobile.extmonitorapp"
@@ -53,9 +53,9 @@
 
        <Preference
             android:key="audio_threesixtyra"
-            android:summary="@string/threesixtyra_summary"
             android:icon="@drawable/ic_threesixtyra"
             android:title="@string/threesixtyra_setting_header"
+            android:summary="@string/threesixtyra_summary"
             android:persistent="false">
             <intent
                  android:targetPackage="jp.co.sony.threesixtyra.lite"
@@ -65,17 +65,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="c"
+        android:key="charging"
         android:title="@string/charging_title">
 
         <Preference
             android:key="advanced_charger_settings"
-            android:summary="@string/charger_setting_summary"
             android:icon="@drawable/ic_battery_care"
             android:title="@string/charger_setting_header"
-            android:fragment="org.lineageos.settings.device.charger.ChargerSettingsActivity">
+            android:summary="@string/charger_setting_summary"
+            android:persistent="false">
             <intent
-                android:action="android.intent.action.MAIN"
                 android:targetPackage="crazyboyfeng.accSettings"
                 android:targetClass="crazyboyfeng.accSettings.SettingsActivity" />
         </Preference>
