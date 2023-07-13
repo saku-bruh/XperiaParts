@@ -80,6 +80,18 @@
                 android:targetClass="crazyboyfeng.accSettings.SettingsActivity" />
         </Preference>
 
+        <Preference
+            android:key="battery_share"
+            android:icon="@drawable/ic_battery_share"
+            android:title="@string/batteryshare_setting_header"
+            android:summary="@string/batteryshare_summary"
+            android:persistent="false">
+            <intent
+                 android:targetPackage="com.sonymobile.wirelesschargemanager"
+                 android:targetClass="com.sonymobile.wirelesschargemanager.batteryshare.SettingsActivity" />
+        </Preference>
+
+
     </PreferenceCategory>
 
 </PreferenceScreen>

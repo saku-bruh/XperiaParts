@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name" translatable="false">Xperia Parts</string>
-    <string name="app_summary" translatable="false">Adjust Various Xperia Settings</string>
+    <string name="app_summary" translatable="false">Configure device specific settings</string>
 
     <!-- Display Settings -->
     <string name="display_title">Display</string>
@@ -24,4 +24,9 @@
     <string name="charging_title">Charging</string>
     <string name="charger_setting_header">Battery Care</string>
     <string name="charger_setting_summary">Optimize battery longevity by adjusting the maximum charging percentage and fine-tuning other charging settings</string>
+
+    <!-- Reverse Wireless Charging -->
+    <string name="batteryshare_setting_header">Battery Share</string>
+    <string name="batteryshare_summary">When the Battery Share feature is enabled, your device becomes capable of wirelessly transferring power to other Qi eligible device</string>
+
 </resources>
