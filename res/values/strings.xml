@@ -7,10 +7,6 @@
     <string name="display_setting_header">Image Quality Settings</string>
     <string name="display_setting_summary">Choose between brilliant colors or a faithful reproduction of the creator\'s intended vision to create an unforgettable visual experience</string>
 
-    <!-- External Monitor -->
-    <string name="extmonitor_setting_header">External Monitor</string>
-    <string name="extmonitor_summary">Enable External Monitor to customize external camera settings and utilize your Xperia\'s display as a reliable and accurate viewfinder for capturing vibrant, true-to-life colors</string>
-
     <!-- Audio Settings -->
     <string name="dolby_category">Audio</string>
     <string name="dolby_title">Dolby Sound</string>
@@ -24,4 +20,17 @@
     <string name="charging_title">Charging</string>
     <string name="charger_setting_header">Battery Care</string>
     <string name="charger_setting_summary">Optimize battery longevity by adjusting the maximum charging percentage and fine-tuning other charging settings</string>
+
+    <!-- USB Section | External Monitor -->
+    <string name="usb_title">USB</string>
+    <string name="usb_extmonitor_setting_header">External Monitor</string>
+    <string name="usb_extmonitor_summary">Enable External Monitor to customize external camera settings and utilize your Xperia\'s display as a reliable and accurate viewfinder for capturing vibrant, true-to-life colors</string>
+
+    <!-- USB Video Output -->
+    <string name="usbv_setting_header">External Video Output</string>
+    <string name="usbv_setting_summary">Customize the video settings to your preference when outputting to an external device via the USB port</string>
+
+    <!-- USB Audio Output -->
+    <string name="usba_setting_header">External Audio Output</string>
+    <string name="usba_setting_summary">Adjust media, in-call or the microphone\'s audio volume when outputting sound to an external device via the USB port</string>
 </resources>

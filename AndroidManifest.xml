@@ -30,8 +30,7 @@
         android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action
-                android:name="android.intent.action.MAIN" 
-                android:name="com.android.settings.action.EXTRA_SETTINGS" />
+                android:name="android.intent.action.MAIN"/>
                 <category
                    android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
