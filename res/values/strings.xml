@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
     <string name="app_name" translatable="false">Xperia Parts</string>
     <string name="app_summary" translatable="false">Configure device specific settings</string>
@@ -33,4 +35,9 @@
     <!-- USB Audio Output -->
     <string name="usba_setting_header">External Audio Output</string>
     <string name="usba_setting_summary">Adjust media, in-call or the microphone\'s audio volume when outputting sound to an external device via the USB port</string>
+
+    <!-- DSM (DualShock/Sense Manager) -->
+    <string name="gc_title">Game Controller</string>
+    <string name="gc_dsm_setting_header">Wireless Controller for PS5 &amp; PS4</string>
+    <string name="gc_dsm_setting_summary">Connect your PlayStation© controllers to your Xperia device to utilize it for gaming</string>
 </resources>
