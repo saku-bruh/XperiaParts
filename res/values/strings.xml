@@ -26,7 +26,7 @@
     <!-- USB Section | External Monitor -->
     <string name="usb_title">USB</string>
     <string name="usb_extmonitor_setting_header">External Monitor</string>
-    <string name="usb_extmonitor_summary">Enable External Monitor to customize external camera settings and utilize your Xperia\'s display as a reliable and accurate viewfinder for capturing vibrant, true-to-life colors</string>
+    <string name="usb_extmonitor_summary">Enable the External Monitor app to customize external camera settings and utilize your Xperia\'s display as a reliable and accurate viewfinder for capturing vibrant, true-to-life colors</string>
 
     <!-- USB Video Output -->
     <string name="usbv_setting_header">External Video Output</string>
@@ -39,5 +39,5 @@
     <!-- DSM (DualShock/Sense Manager) -->
     <string name="gc_title">Game Controller</string>
     <string name="gc_dsm_setting_header">Wireless Controller for PS5 &amp; PS4</string>
-    <string name="gc_dsm_setting_summary">Connect your PlayStation© controllers to your Xperia device to utilize it for gaming</string>
+    <string name="gc_dsm_setting_summary">Connect your PlayStation© controllers to your Xperia device to utilize them for gaming</string>
 </resources>
